@@ -1,7 +1,7 @@
 # Default behavior: if Git thinks a file is text (as opposed to binary), it
 # will normalize line endings to LF in the repository, but convert to your
 # platform's native line endings on checkout (e.g., CRLF for Windows).
-* text=auto
+#* text=auto
 
 # Explicitly declare text files you want to always be normalized and converted
 # to native line endings on checkout. E.g.,
